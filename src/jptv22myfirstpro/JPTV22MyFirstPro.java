@@ -18,7 +18,7 @@ public class JPTV22MyFirstPro {
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите имя: ");
+        System.out.println("Введите имя:");
         String firstname = scanner.nextLine();
         System.out.println("Введите фамилию:");
         String lastname = scanner.nextLine();
