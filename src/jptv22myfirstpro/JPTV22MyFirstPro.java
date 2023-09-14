@@ -17,13 +17,16 @@ public class JPTV22MyFirstPro {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.println("Введите имя: ");
         String firstname = scanner.nextLine();
         System.out.println("Введите фамилию: ");
         String lastname = scanner.nextLine();
 
-        System.out.println("Привет " + firstname + " " + lastname);
+        System.out.println("Привет " + firstname + " " + lastname);*/
+        
+        App app = new App();
+        app.run();
     }
     
 }
